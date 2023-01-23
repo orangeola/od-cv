@@ -7,8 +7,10 @@ class Education extends Component {
 
   render() {
     return (
-      <div className="Education">
+      <div id="Education">
+        <h1>Education</h1>
         <p>University of Adelaide</p>
+        <button>Edit</button>
       </div>
     );
   }
