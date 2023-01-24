@@ -11,18 +11,6 @@ class Education extends Component {
     }
   }
 
-  /*
-
-  newLearn: {
-    uni: University of Adelaide,
-    course: Bachelor of Computer Science,
-    from: 2017,
-    to: 2020,
-    uniqid: 0
-  }
-
-  */
-
   submitAnswers = (newUni, newCourse, newFrom, newTo) => {
     let newLearn = {
         uni: newUni,
